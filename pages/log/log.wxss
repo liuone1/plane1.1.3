@@ -1,0 +1,142 @@
+page {
+  background-color: #EDEDED;
+
+
+}
+.border{
+border: 3rpx dashed #898989;
+margin: 12rpx;
+margin-top: 10px;
+text-align: center;
+ border-radius:2%
+ }
+ .yes{
+   position: absolute;
+   padding-top: 10rpx;
+   left: 30rpx;
+   font-size: 16px;
+ }
+
+ .table {
+  border: 1px solid #898989;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+   border-right: 1px solid #898989;
+
+}
+.td {
+    width:40%;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    text-align: center;
+     font-size: 15px;
+     height: 3rem;
+   border-right: 1px solid #898989;
+    border-bottom: 1px solid #898989;
+}
+.td1{
+    width:22%;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    text-align: center;
+     font-size: 15px;
+     height: 3rem;
+border-right: 1px solid #898989;
+ border-bottom: 1px solid #898989;
+}
+.td2{
+    width:20%;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    text-align: center;
+     font-size: 15px;
+     height: 3rem;
+ border-right: 1px solid #898989;
+  border-bottom: 1px solid #898989;
+}
+.td3{
+    width:20%;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    text-align: center;
+     font-size: 15px;
+     height: 3rem;
+      border-bottom: 1px solid #898989;
+ 
+}
+.bg-w{
+  background: #39beff;
+  
+ 
+}
+.bg-g{
+  background: #E0F1F4;
+}
+.bg-b{
+  background: #E0E0E0;
+}
+.th {
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+  background: #AEEEEE;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  font-size: 15px;
+   border-right: 1px solid #898989;
+   border-bottom: 1px solid #898989;
+}
+.th1 {
+  width: 22%;
+  justify-content: center;
+  text-align: center;
+  background: #AEEEEE;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+ font-size: 15px;
+  border-right: 1px solid #898989;
+  border-bottom: 1px solid #898989;
+
+}
+.th2 {
+  width: 20%;
+  justify-content: center;
+  text-align: center;
+  background: #AEEEEE;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+ font-size: 15px;
+  border-right: 1px solid #898989;
+   border-bottom: 1px solid #898989;
+}
+.th3 {
+  width: 20%;
+  justify-content: center;
+  text-align: center;
+  background: #AEEEEE;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+ font-size: 15px;
+  border-bottom: 1px solid #898989;
+}

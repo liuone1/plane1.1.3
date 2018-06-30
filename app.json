@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/first/first",
+    "pages/index/index",
+    "pages/log/log",
+    "pages/register/register",
+    "pages/vaild/vaild",
+    "pages/index/detail/detail",
+    "pages/index/detail1/detail1",
+    "pages/index/detail2/detail2",
+    "pages/index/detail3/detail3",
+    "pages/index/detail4/detail4",
+    "pages/index/detail5/detail5"
+  ],
+  "window": {
+    "backgroundTextStyle": "black",
+    "navigationBarBackgroundColor": "#39beff",
+    "navigationBarTitleText": "无人机充电管理平台",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#aaa"
+  }
+}

@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<import src="/pages/common/foot.wxml" />
+
+
+ <view class="page-section">
+
+    <view class="weui-cells__title">欢迎使用智能平台</view>
+     <view class="weui-cells weui-cells_after-title">
+       <view class="weui-cell weui-cell_input">       
+         <view class="weui-cell__hd">
+          <view class="weui-label">用户名</view>
+       </view>
+         <input class="weui-input" maxlength="11" auto-focus placeholder="请输入用户名" bindinput='userNameInput'  value='koyhou'/>
+       </view>
+    </view>
+  </view>
+ <view class="page-section">
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+           <view class="weui-label">密码</view>
+            </view>
+          <input class="weui-input" password type="text" placeholder="请输入密码" bindinput='userPasswordInput'  value='594d38' />
+        </view>
+      </view>
+    </view>
+  <view class="btn-area">
+    <button class='myClass' bindtap="logIn">登 录 </button>
+    <button class='myClass1' bindtap="shuaxin">注 册</button>
+  </view>

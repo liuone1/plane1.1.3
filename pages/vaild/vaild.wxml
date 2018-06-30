@@ -1,0 +1,40 @@
+
+ <view class="page-section">
+    <view class="weui-cells__title">欢迎注册智能平台</view>
+     <view class="weui-cells weui-cells_after-title">
+       <view class="weui-cell weui-cell_input">       
+         <view class="weui-cell__hd">
+          <view class="weui-label">手机号</view>
+       </view>
+         <input class="weui-input" maxlength="11" auto-focus placeholder="请输入手机号" bindinput='userNameInput'  />
+       </view>
+    </view>
+  </view>
+  <view class="page-section">
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+           <view class="weui-label">验证码</view>
+            </view>
+          <input class="weui-input" maxlength="4" type="number" placeholder="请输入验证码" bindinput='userNumberInput' /> 
+            <view class="weui-cell__ft">     
+             <view class="weui-vcode-btn" bindtap="reSendPhoneNum">{{ c2 || '获取验证码' }}</view>
+            </view> 
+        </view>
+      </view>
+   </view> 
+ <view class="page-section">
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+           <view class="weui-label">密码</view>
+            </view>
+          <input class="weui-input" password type="text" placeholder="请输入密码" bindinput='userPasswordInput'/>
+        </view>
+      </view>
+   </view>
+  <view class="btn-area">
+    <button class='myClass'  bindtap="logIn">提交注册 </button>
+    <button class='myClass1' bindtap="shuaxin">已有账号登录</button>
+  </view>
+ 

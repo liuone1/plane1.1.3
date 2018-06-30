@@ -1,0 +1,29 @@
+@import "/pages/common/lib/weui.wxss";
+page {
+  background-color: #F8F8F8;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}
+
+
+.myClass{
+  background-color:  #39beff;
+  color: #ffffff;
+  width: 80%;
+}
+.myClass1{
+  width: 80%;
+}
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.button-sp-area{
+  margin: 0 ;
+  width: 20%;
+  
+}
+.mini-btn{
+  margin-right: 10rpx;
+}

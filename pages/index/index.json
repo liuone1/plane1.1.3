@@ -1,0 +1,11 @@
+{
+    "window": {
+      "backgroundTextStyle": "black",
+      "navigationBarBackgroundColor": "#39beff",
+      "navigationBarTitleText": "充电站位置",
+      "navigationBarTextStyle": "white",
+      "backgroundColor": "#aaa",
+      "enablePullDownRefresh": true
+    }
+}
+
